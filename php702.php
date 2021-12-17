@@ -1,8 +1,8 @@
 <?php
-//$list = [10,20,30]
-$result = array_map(function ($element) {
-	return $element * 2;
-}, $list = [10,20,30]);
-
-print_r($result)
+$hi = function($x){
+	echo "Hello<br/>";
+	echo "x:$x<br/>";
+};
+$h1(20);
+$h1(40);
 ?>

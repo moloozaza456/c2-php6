@@ -1,8 +1,8 @@
 <?php
-//$list = [10,20,30]
-$result = array_map(function ($element) {
-	return $element * 2;
-}, $list = [10,20,30]);
-
-print_r($result)
+//Define a function
+function multiple($a, $b){
+	echo "Hello world: x= $a,$b <br/>";
+}
+//Function call
+multiple(20,10);
 ?>
